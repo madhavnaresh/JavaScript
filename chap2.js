@@ -21,7 +21,8 @@ else
 /*
 let shippingOption = "standard";
 
-switch (shippingOption) {
+switch (shippingOption) 
+{
     case 'standard':
         console.log("Your order will be delivered in 4-5 days");
         break;
@@ -39,8 +40,8 @@ switch (shippingOption) {
 */
 
 //Control statement
-let sum=0;
-let items=[10,30,20,70,50,40];
+//let sum=0;
+//let items=[10,30,20,70,50,40];
 
 //For loop
 /*
@@ -54,9 +55,39 @@ console.log(sum);
 //While loop
 /*
 i=0;
-while (i<items.length) {
+while (i<items.length) 
+{
     sum=sum+items[i];
     i++;
 }
 console.log(sum);
 */
+
+//Function without argument
+/*
+function printIt() 
+{
+    console.log("Madhav, a frontend developer");
+}
+printIt();
+*/
+
+//funtion with argument
+/*
+function printname(name)
+{
+    console.log(name);
+}
+console.log("COSMIC365.AI");
+*/
+
+//function using return 
+/*
+function returnIt(name)
+{
+    return name; // it will not execute anything so we have to save what it is returning.
+}
+let ans=returnIt("Main flow");
+console.log(ans);
+*/
+
