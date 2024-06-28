@@ -18,6 +18,7 @@ else
     */
 
 //Switch statements
+/*
 let shippingOption = "standard";
 
 switch (shippingOption) {
@@ -35,3 +36,14 @@ switch (shippingOption) {
     console.log("Invalid shipping option");
         break;
 }
+*/
+
+//Control statement
+let sum=0;
+let items=[10,30,20,70,50,40];
+
+for(let i=0;i<items.length;i++)
+    {
+        sum=sum+items[i];
+    }
+console.log(sum);
