@@ -42,8 +42,21 @@ switch (shippingOption) {
 let sum=0;
 let items=[10,30,20,70,50,40];
 
+//For loop
+/*
 for(let i=0;i<items.length;i++)
     {
         sum=sum+items[i];
     }
 console.log(sum);
+*/
+
+//While loop
+/*
+i=0;
+while (i<items.length) {
+    sum=sum+items[i];
+    i++;
+}
+console.log(sum);
+*/
