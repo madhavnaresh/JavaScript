@@ -1,4 +1,5 @@
 // if else
+/*
 let grocerySpending=300; 
 if (grocerySpending > 1000)
     {
@@ -14,3 +15,23 @@ else
     {
         console.log("No discount");
     }
+    */
+
+//Switch statements
+let shippingOption = "standard";
+
+switch (shippingOption) {
+    case 'standard':
+        console.log("Your order will be delivered in 4-5 days");
+        break;
+    case 'one-day':
+        console.log("Your order will be delivered in one day");
+        break;
+    case 'fast':
+        console.log("Your order will be delivered in 2-3 days");
+        break;
+
+   default:
+    console.log("Invalid shipping option");
+        break;
+}
