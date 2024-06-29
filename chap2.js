@@ -91,3 +91,15 @@ let ans=returnIt("Main flow");
 console.log(ans);
 */
 
+//Scoping :- till where i can exist
+
+let a=5; // global scope :- can be accessed anywhere in the whole file
+function sum()
+{
+    let b=10; //block scope :- can be accessed inside the block only
+    console.log(a);
+    console.log(b);
+}
+sum();
+console.log(a);
+// console.log(b); //will show error like b is not defined bcz it's block scope
