@@ -92,7 +92,7 @@ console.log(ans);
 */
 
 //Scoping :- till where i can exist
-
+/*
 let a=5; // global scope :- can be accessed anywhere in the whole file
 function sum()
 {
@@ -103,3 +103,26 @@ function sum()
 sum();
 console.log(a);
 // console.log(b); //will show error like b is not defined bcz it's block scope
+*/
+
+//checking global and block variables
+/*
+{
+    var a=19; //global scope
+    let q=12; //block scope
+    const t=10; //block scope
+}
+console.log(a); //a will be accessed
+console.log(q); //q will not be accessed
+console.log(t); //t will not be accessed
+*/
+
+//checking global and block variables using function
+/*
+function we()
+{
+    var a=10;
+}
+console.log(a); //will show error
+*/
+
