@@ -127,7 +127,7 @@ console.log(a); //will show error
 */
 
 //scoping chain
-
+/*
 let a=10;
 function outer()
 {
@@ -135,8 +135,10 @@ function outer()
     function inner()
     {
         let c=30;
-        console.log(a ,b ,c); // it will check variable in inner, then outer, then global and for this 'a' and 'b' will be lexical scope variable
+        console.log(a ,b ,c); // it will check variable in inner, then outer, then global  if still it's not find variable then will show that variable is not defind
+        //and for this 'a' and 'b' will be lexical scope variable
     }
     inner();
 }
 outer();
+*/
