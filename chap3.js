@@ -73,3 +73,84 @@ console.log(no);
 let opp=arr.slice(-2); //access element from last, here count index from last by -1
 console.log(opp); 
 */
+
+/*
+let arr=[
+    {name:"mg",score:90},
+    {name:"sg",score:70},
+    {name:"ag",score:30},
+    {name:"dg",score:100},
+    {name:"rg",score:80},
+    {name:"kg",score:60}
+    ];
+    console.log(arr);
+    
+//Splice
+arr.splice(1,2,{name:"lg",score:20}); // 1st- index start, 2nd- howmany u want to delete, 3rd- with u want to replace
+console.log(arr);
+
+//Reverse
+console.log(arr.reverse()); //will reverse the array
+
+//Some and Every
+//some
+let info=arr.some(function(obj) // some will true if anyone condition is true
+{
+    if(obj.score>80)
+        {
+            return true;
+        }
+    else{
+            return false;
+        }
+}
+)
+console.log(info);
+
+//every
+let info=arr.every(function(obj) // some will true if every condition is true
+{
+    if(obj.score>80)
+        {
+            return true;
+        }
+    else{
+            return false;
+        }
+}
+)
+console.log(info);
+
+//Find
+let info=arr.find(function(obj) //if more than condition satisfies than only 1st will be output
+{
+    return obj.score===90;
+}
+)
+console.log(info);
+*/
+
+//Sorting
+/*
+arr=[1,2,3,0,6,5,9];
+console.log(arr.sort()); 
+
+//error in sorting
+arr=[1,0,5,8,20,1000,111,30,50];
+console.log(arr.sort());  //it gives o/p as alphabetical order coz it takes element as character
+
+//Solve sorting
+console.log(arr.sort(function(a,b)
+    {
+        return a-b; // return in ascending order for descending use b-a
+    }
+));
+*/
+
+//Delete
+/*
+arr=["ajay","vijay","lal","sumit","amit","pawan"];
+console.log(arr);
+delete arr[2]; //will replace item with empty item means it deletes but shows empty space
+console.log(arr);
+*/
