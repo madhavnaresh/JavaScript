@@ -64,3 +64,14 @@ let replaceWord="VMSBUTU";
 console.log(intro.replace(keyWord,replaceWord));
 */
 
+//Substr, substring, slice
+/*
+let intro="Hi, I am madhav, studying in MCA in UTU Dehradun.";
+//slice
+let partIntro=intro.slice(0,31); //same as array
+console.log(partIntro+" ...read more");
+
+//substring
+let subIntro=intro.substring(0); //1 value- leave index from start and print remaining, 2 values- leave index equal to 1st val and print next index as 2nd val, 0 in function then retrun whole string
+console.log(subIntro); 
+*/
