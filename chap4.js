@@ -43,3 +43,24 @@ let age=21;
 let intro=`My name is :- ${fname} ${sname} and my age is ${age}.`
 console.log(intro);
 */
+
+//Changing cases 
+/*
+let fullname="Madhav Gupta";
+//Uppercase
+console.log(fullname.toUpperCase());
+//Lowercase
+console.log(fullname.toLowerCase());
+*/
+
+//Find a keyword in an paragraph
+/*
+let intro="Hi, I am madhav, studying in MCA in UTU Dehradun.";
+let keyWord="UTU";
+console.log(intro.search(keyWord)); //return the index no. of first character
+
+//Replace any word
+let replaceWord="VMSBUTU";
+console.log(intro.replace(keyWord,replaceWord));
+*/
+
