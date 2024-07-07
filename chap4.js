@@ -35,7 +35,7 @@ let fullname=fname + sname;
 console.log(fullname);
 
 //2. Using concating ($)
-let fullname=`${fname}${sname}`;
+let fullname=`${fname}${sname}`; // to use "${variable_name}" use backtick (``) outside of using variable
 console.log(fullname);
 
 //Extra (fetching strings)
