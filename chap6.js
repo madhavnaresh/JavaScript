@@ -50,3 +50,11 @@ returnFunction()();
 let rf=returnFunction();
 rf();
 */
+
+//Arrow function
+let print=()=>
+    {
+        console.log("hello friends!!");
+    }
+
+print(); //call the function
