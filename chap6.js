@@ -52,9 +52,62 @@ rf();
 */
 
 //Arrow function
+/*
 let print=()=>
     {
         console.log("hello friends!!");
     }
 
 print(); //call the function
+
+//Other way to define Arrow fn.
+let op=()=>console.log("this is output");
+op();
+*/
+
+//using arrow in addition
+/*
+let sum=(a,b)=>
+    {
+        return a+b;
+   }
+//or
+let add=(a,b)=>a+b;
+console.log(add(10,5));
+*/
+
+//Immediately Invoked Function Expression (IIFE)
+/*
+(function sub()
+    {
+        console.log(9-4);
+    }
+)
+() // immediate call of fn.
+
+//IIFE as arrow fn.
+(() => {
+    console.log(2 * 9);
+})();
+*/
+
+//other declaration of functin and variable
+/*
+let a=10;
+function hello()
+    {
+        a=20;
+        console.log(a);
+    }
+hello(); //will give o/p 20
+console.log(a); // will also give o/p 20 bcz in the compiler value of a is updated but if we define a of fn. differently then both will different
+// see here
+let b=20;
+function op()
+    {
+        var b=30;
+        console.log(b);
+    }
+op(); //o/p will be 30
+console.log(b); // o/p will be 20
+*/
