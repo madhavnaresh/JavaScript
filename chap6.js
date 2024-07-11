@@ -111,3 +111,5 @@ function op()
 op(); //o/p will be 30
 console.log(b); // o/p will be 20
 */
+
+//Learning execution context and its type
