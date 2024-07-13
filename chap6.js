@@ -113,3 +113,18 @@ console.log(b); // o/p will be 20
 */
 
 //Learning execution context and its type
+
+//To understand the execution and it's parts :- 1.memory creation phase and 2.execution phase
+/*
+var l=20;
+var w=30;
+
+function calculate(length,width)
+    {
+        let area=length*width;
+        return area;
+    }
+
+var rectangle=calculate(l,w);
+console.log(rectangle);
+*/
