@@ -33,6 +33,7 @@ let maparray=product.map((product)=> //it is all like the foreach() but it creat
 */
 
 //Filter() method 
+/*
 let filteredProd=product.filter((product)=> // it also creates a separate array of values according to the condition
     {
         return product.price > 150;
@@ -41,3 +42,14 @@ let filteredProd=product.filter((product)=> // it also creates a separate array 
 
 console.log(filteredProd);
 console.log(product);
+*/
+
+//Reduce() method
+/*
+let cartTotal = product.reduce((total, product) => { //total works as accumulator and product as current value
+    return total + product.price;
+}
+    , 0); // here we initialy having 0 in total 
+
+console.log(cartTotal);
+*/
