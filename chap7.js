@@ -7,7 +7,7 @@
 // )
 
 //Another example
-
+/*
 let product = [
     { id: 1, Name: "prod 1", price: 99 },
     { id: 2, Name: "prod 2", price: 199 },
@@ -15,6 +15,7 @@ let product = [
     { id: 4, Name: "prod 4", price: 399 },
     { id: 5, Name: "prod 5", price: 49 },
 ]
+*/
 
 /*
 product.forEach((product)=>
